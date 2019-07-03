@@ -5,17 +5,17 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "react": "16.6.3",
-    "react-dom": "16.6.3",
-    "react-jsonschema-form": "1.0.6",
-    "react-router-dom": "4.3.1",
-    "react-scripts": "2.1.1",
-    "redux": "4.0.1",
-    "superagent": "4.0.0"
+    "react": "latest",
+    "react-dom": "latest",
+    "react-jsonschema-form": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "redux": "latest",
+    "superagent": "latest"
   },
   "devDependencies": {
-    "prettier":"latest",
-    "react-devtools-extension":"latest",
+    "prettier": "latest",
+    "redux-devtools-extension": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
