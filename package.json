@@ -5,22 +5,36 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "react": "16.6.3",
-    "react-dom": "16.6.3",
-    "react-jsonschema-form": "1.0.6",
-    "react-router-dom": "4.3.1",
-    "react-scripts": "2.1.1",
-    "redux": "4.0.1",
-    "superagent": "4.0.0"
+    "node-sass": "^4.12.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-jsonschema-form": "latest",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "redux": "^4.0.1",
+    "superagent": "latest"
   },
   "devDependencies": {
-    "prettier":"latest",
-    "react-devtools-extension":"latest",
+    "prettier": "latest",
+    "redux-devtools-extension": "^2.13.8"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
